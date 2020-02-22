@@ -1,0 +1,185 @@
+.fa-envelope:before {
+    content: "\f0e0"
+}
+
+.skill-box-h {
+    height: 98% !important;
+    width: 100%;
+    position: relative;
+    padding-bottom: 4em;  
+    text-align: center!important;
+}
+
+.last-skillset{
+    margin-left: 25%;
+}
+
+.single-skill {
+    list-style: none;
+    text-align: start;
+    padding: 0;
+}
+
+
+.single-skill li{
+    margin-bottom: 1em;
+}
+.single-skill li p {
+    font-size: 1em !important;
+    margin-bottom: 0.5em;
+}
+
+.single-skill li p span {
+    font-size: 1em !important;
+    float: right;
+}
+
+
+.bottom-text-skill{
+    bottom: 20px;
+    position: absolute;
+    display: inline-block;
+    left: 27%;
+}
+
+.cloud{
+    left: 42%;
+}
+
+.line {
+   background: #DCDCDC;
+    display: block;
+    border-radius: 3px;
+    overflow:hidden;    
+}
+
+.line span {
+    height: 4px;
+    float: left;
+    background: #0073b1;
+}
+
+.node,.typescript,.c,.android,.gateway,.mongo,.webapi{
+    width: 85%;
+    animation: Animate-node 2s ease-out;
+}
+
+@keyframes Animate-node {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+.angular,.java,.lambda,.sql,.netframework{
+    width: 80%;
+    animation: Animate-angular 2s ease-out;
+}
+
+@keyframes Animate-angular {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+
+.react, .python{
+    width: 70%;
+    animation: Animate-react 2s ease-out;
+}
+
+@keyframes Animate-react {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+    
+.javascript,.chash,.firebase,.ec2,.mysql{
+    width: 90%;
+    animation: Animate-javascript 2s ease-out;
+}
+
+@keyframes Animate-javascript {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+
+.html, .css{
+    width: 95%;
+    animation: Animate-html 2s ease-out;
+}
+
+@keyframes Animate-html {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+    
+.cloudfront{
+    width: 75%;
+    animation: Animate-cl 2s ease-out;
+}
+
+@keyframes Animate-cl {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+    
+.dynamo{
+    width: 60%;
+    animation: Animate-dynamo 2s ease-out;
+}
+
+@keyframes Animate-dynamo {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+.git, .svn{
+    width: 100%;
+    animation: Animate-git 2s ease-out;
+}
+
+@keyframes Animate-git {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+

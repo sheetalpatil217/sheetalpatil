@@ -1,0 +1,99 @@
+/*CSS for intro image */
+
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 260px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+/*  margin-left: -50px;*/
+}
+/*end*/
+
+
+.experience-date {
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 28px;
+    font-size: 15px;
+    color: #777777;
+}
+
+
+.ex-content {
+    position: relative;
+}
+
+.ex-content:after {
+    content: '';
+    position: absolute;
+    top: 7px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #0073b1;
+    left: 185px;
+  /*  left: -50px;*/
+}
+
+.ex-content:before {
+    content: '';
+    position: absolute;
+    top: 22px;
+    width: 2px;
+    background-color: #eeeeee;
+    height:100%;
+    /*height: calc(100% + 49px);*/
+  /*  left: calc(-50px + 6px);*/
+}
+
+
+.exp-date{
+    color: #0073b1;
+}
+
+.right-exp-text{
+    margin-left: -150px;
+    text-align: left;
+}
+
+.left-exp-date{
+    margin-right: -150px;
+    text-align: end;
+}
+
+
+@media (min-width: 992px)
+.display-f {
+    display: flex;
+}
+
+.email-link{
+    color: #ffffff;
+}
+
+.phone-link{
+      color: #ffffff;
+    transform: rotate(90deg);
+}
+
+.phone-text{
+     color: #ffffff;
+}
+
+.resume-link{
+     color: #ffffff;
+}
+
+.contact-div{
+    display: inline-flex;
+    font-size: 1.2rem;
+}
